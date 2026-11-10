@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+.header {
+    background-color: #263238;
+    color: white;
+}
+
+.navigation {
+    background-color: #37474f;
+}
+
+.main-block {
+    background-color: #ffffff;
+    color: #222222;
+    min-height: 300px;
+    border: 2px solid #263238;
+}
+
+.side-block {
+    background-color: #cfd8dc;
+    color: #263238;
+    min-height: 300px;
+    border: 2px solid #455a64;
+}
+
+.footer {
+    background-color: #263238;
+    color: white;
+}
+
+/* Екрани від 1200 px */
+@media (min-width: 1200px) {
+    .header {
+        background-color: #263238;
+    }
+
+    .main-block {
+        background-color: #ffffff;
+        color: #222222;
+    }
+
+    .side-block {
+        background-color: #cfd8dc;
+    }
+}
+
+/* Екрани від 992 до 1199 px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header {
+        background-color: #1565c0;
+    }
+
+    .main-block {
+        background-color: #e3f2fd;
+        color: #0d47a1;
+    }
+
+    .side-block {
+        background-color: #bbdefb;
+        color: #0d47a1;
+    }
+}
+
+/* Екрани від 768 до 991 px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        background-color: #2e7d32;
+    }
+
+    .main-block {
+        background-color: #e8f5e9;
+        color: #1b5e20;
+    }
+
+    .side-block {
+        background-color: #c8e6c9;
+        color: #1b5e20;
+    }
+}
+
+/* Екрани до 767 px */
+@media (max-width: 767px) {
+    .header {
+        background-color: #6a1b9a;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .main-block {
+        background-color: #f3e5f5;
+        color: #4a148c;
+    }
+
+    .side-block {
+        background-color: #e1bee7;
+        color: #4a148c;
+    }
+
+    .footer {
+        background-color: #4a148c;
+    }
+}
