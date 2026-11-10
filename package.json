@@ -1,0 +1,25 @@
+{
+    "name": "romanchenko-lab14",
+    "version": "1.0.0",
+    "description": "Laboratory work 14 - Bootstrap and Express",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}
+
+{
+    "name": "romanchenko-lab14",
+    "version": "1.0.0",
+    "description": "Laboratory work 14 - Bootstrap and Express",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}
